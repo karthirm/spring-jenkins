@@ -14,6 +14,7 @@ public class SpringJenkinsApplication {
 	@PostConstruct
 	public void intt(){
 		logger.info("App started");
+		System.out.println("inside intt method");
 	}
 
 	public static void main(String[] args) {
